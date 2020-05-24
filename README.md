@@ -1,5 +1,5 @@
 # android_hook_bypass_detector
-
+'''
 #include <jni.h>
 #include <unistd.h>
 #include <stdio.h>
@@ -179,3 +179,4 @@ __attribute__((constructor)) void testhookfw()
     LOGD("testhookfw....end...\n");
     return;
 }
+'''
